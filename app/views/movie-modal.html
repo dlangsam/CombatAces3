@@ -1,0 +1,41 @@
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal" ng-click="gallery.reset()">
+                    <div class="lr" ng-click="gallery.reset()">
+                        <div class="rl"">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>{{myModal.movie.name}}</h2>
+                                <h4>{{myModal.movie.year}}</h4>
+                                <p class="item-intro text-muted">{{myModal.movie.tagline}}</p>
+                         
+                                <div ng-repeat = "paragraph in myModal.movie.description">
+                                <p>{{paragraph}}</p>
+                                </div>
+               
+                                <div>
+                                <movie-gallery></movie-gallery>
+                                </div>
+   
+
+                                
+                                <ul class="list-inline" ng-show = "myModal.movie.cast.length > 0"> Cast:
+                                    <li ng-repeat = "cast in myModal.movie.cast">
+                                    {{cast}}</li>
+                               
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" ng-click="gallery.reset()"><i class="fa fa-times"></i> Close Movie</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
