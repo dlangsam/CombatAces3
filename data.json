@@ -24,9 +24,9 @@
         "size": 50,
         "accuracy": 5,
         "images": [
-        "../img/movies/bob3.jpg",
-        "../img/movies/bob2.jpg",
-          "../img/movies/bob1.jpg"
+        "../images/movies/bob3.jpg",
+        "../images/movies/bob2.jpg",
+          "../images/movies/bob1.jpg"
         ]
       },
         {
