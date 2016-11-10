@@ -17,20 +17,20 @@ angular
     'ngSanitize',
     'ngTouch',
     'combat-movies'
-  ]);
-  // .config(function ($routeProvider) {
-  //   $routeProvider
-  //     .when('/', {
-  //       templateUrl: 'views/main.html',
-  //       controller: 'MainController',
-  //       controllerAs: 'mainCtrl'
-  //     })
-  //     .when('/about', {
-  //       templateUrl: 'views/about.html',
-  //       controller: 'AboutCtrl',
-  //       controllerAs: 'about'
-  //     })
-  //     .otherwise({
-  //       redirectTo: '/'
-  //     });
-  // });
+  ])
+  .config(function ($routeProvider) {
+    $routeProvider
+      .when('/', {
+        templateUrl: 'views/main.html',
+        controller: 'MainController',
+        controllerAs: 'mainCtrl'
+      })
+      .when('/about', {
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl',
+        controllerAs: 'about'
+      })
+      .otherwise({
+        redirectTo: '/'
+      });
+  });

@@ -16,11 +16,11 @@ angular.module('combatAcesApp')
     ];
 
     var main = this;
-    main.quotes = ["Hello world","This is a test"];
+    main.quotes = ["Hello world", "I hate Trump!"];
    	main.movies = []; //init page to empty to array so no error before page loads
-    $http.get('../../../data.json').success(function(data){
+    $http.get('../../data.json').success(function(data){
       main.movies = data.movies;
-      //main.quotes = data.quotes;
+      main.quotes = data.quotes;
       main.quote = main.getQuote(); 
     });
     
