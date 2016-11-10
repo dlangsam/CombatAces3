@@ -80,7 +80,7 @@ module.exports = function (grunt) {
           open: true,
           middleware: function (connect) {
             return [
-            
+
               connect.static('.tmp'),
 
               connect().use(
@@ -415,7 +415,8 @@ module.exports = function (grunt) {
             '*.{ico,png,txt}',
             '*.html',
             'images/{,*/}*.{webp}',
-            'styles/fonts/{,*/}*.*'
+            'styles/fonts/{,*/}*.*',
+            'views/*'
           ]
         }, {
           expand: true,
@@ -436,7 +437,15 @@ module.exports = function (grunt) {
         src: '{,*/}*.css'
       }
     },
-
+    useminPrepare: {
+    options: {
+        dest: '<%= yeoman.dist %>'
+    },
+    html: [
+        '<%= yeoman.app %>/index.html',
+        '<%= yeoman.app %>/views/*.html'
+    ]
+    },
     // Run some tasks in parallel to speed up the build process
     concurrent: {
       server: [
