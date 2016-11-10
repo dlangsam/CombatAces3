@@ -16,7 +16,7 @@ angular.module('combatAcesApp')
     ];
 
     var main = this;
-    main.quotes = ["Hello world", "I hate Trump!"];
+    main.quotes = [];
    	main.movies = []; //init page to empty to array so no error before page loads
     $http.get('../../data.json').success(function(data){
       main.movies = data.movies;

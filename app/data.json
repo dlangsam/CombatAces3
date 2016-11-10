@@ -38,8 +38,8 @@
         "size": 5,
         "accuracy": 6,
         "images": [
-          "../img/movies/lb1.jpg",
-          "../img/movies/lb2.jpg"
+          "../images/movies/lb1.jpg",
+          "../images/movies/lb2.jpg"
         ],
         "description": [
           "The Lost Battalion stressed the individual aspect of war. Major Charles Whittlesey, who was declared as one of the three most important members of the American Expeditionary Force and a Medal of Honor recipient, was a school teacher before he was drafted to lead men into battle.  Many of the men in Whittlessey’s battalion were shop keepers, clerks, and construction workers whose lives were interrupted due to the outbreak of World War I.  The ''Lost Battalion'' was not even a battalion but was two companies of about 500 men that were not even lost, but rather surrounded.  During an offensive in the Argonne Forest this battalion was the only one that managed to advance.  The Germans launched eight attacks against the unit over a five day span of time and the men ran out of food the first day.  A&E depicts the movie with historical accuracy and like Saving Private Ryan, used hand held cameras to capture battle scenes more vividly.   The battles took place near the end of the war and at the end of the movie the General the arrived told Whittlesey that the losses the battalion suffered were “acceptable”.  Whittlesey was so troubled after the war because of the experiences he went through that he committed suicide in March of 1921.  The movie does a great job, sadly, of displaying how much the soldiers suffered and how hard it actually is to fight in thick forests.",
@@ -58,7 +58,7 @@
         "accuracy": 3,
 
         "images": [
-          "../img/movies/ph1.jpg"
+          "../images/movies/ph1.jpg"
         ],
         "cast": ["Ben Affleck", "Josh Hartnett", "Kate Beckinsale"],
         "description": [ 
@@ -76,8 +76,8 @@
         "size": 8,
         "accuracy": 4,
          "images": [
-          "../img/movies/spr2.jpg",
-          "../img/movies/spr1.jpg"
+          "../images/movies/spr2.jpg",
+          "../images/movies/spr1.jpg"
         
         ],
          "cast": ["Tom Hanks", "Tom Sizemore", "Edward Burns", "Barry Pepper", "Adam Goldberg", "Vin Diesel", "Giovanni Ribisi", "Matt Damon"],
@@ -97,8 +97,8 @@
         "size": 9,
         "accuracy": 2,
         "images": [
-        "../img/movies/wt2.jpg",
-          "../img/movies/wt1.jpg"
+        "../images/movies/wt2.jpg",
+          "../images/movies/wt1.jpg"
         
         ]
       },
@@ -110,9 +110,9 @@
         "accuracy": 7,
         "cast": ["George C. Scott", "Karl Malden", "Stephen Young"],
          "images": [
-          "../img/movies/patton1.jpg",
-          "../img/movies/patton2.jpg",
-          "../img/movies/patton3.jpg"
+          "../images/movies/patton1.jpg",
+          "../images/movies/patton2.jpg",
+          "../images/movies/patton3.jpg"
         ]
 
 
@@ -125,7 +125,7 @@
         "accuracy": 10,
         "cast": ["James Mason", "Cedric Hardwicke", "Jessica Tandy"],
          "images": [
-          "../img/movies/tdf1.jpg"
+          "../images/movies/tdf1.jpg"
         ]
       },
        {
@@ -135,8 +135,8 @@
         "size": 150,
         "accuracy": 9,
          "images": [
-           "../img/movies/tld2.jpg",
-          "../img/movies/tld1.jpg"
+           "../images/movies/tld2.jpg",
+          "../images/movies/tld1.jpg"
         ],
          "cast": ["Eddie Albert", "Paul Anka", "Arletty" ]
       },
@@ -147,8 +147,8 @@
         "size": 5,
         "accuracy": 1,
          "images": [
-          "../img/movies/ttsot2.jpg",
-          "../img/movies/ttsot1.jpg"
+          "../images/movies/ttsot2.jpg",
+          "../images/movies/ttsot1.jpg"
         ]
       },
        {
@@ -160,7 +160,7 @@
         "accuracy": 8,
         "cast": ["Martin Balsam", "So Yamamura", "Joseph Cotten"],
          "images": [
-          "../img/movies/ttt1.jpg"
+          "../images/movies/ttt1.jpg"
         ]
       }
     ]
